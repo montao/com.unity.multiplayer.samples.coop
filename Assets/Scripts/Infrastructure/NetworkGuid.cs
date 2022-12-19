@@ -1,9 +1,9 @@
 using System;
 using Unity.Netcode;
 
-namespace Unity.Multiplayer.Samples.BossRoom
+namespace Unity.BossRoom.Infrastructure
 {
-    public struct NetworkGuid : INetworkSerializable
+    public class NetworkGuid : INetworkSerializable
     {
         public ulong FirstHalf;
         public ulong SecondHalf;
